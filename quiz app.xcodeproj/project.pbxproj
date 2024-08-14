@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		7A971DDF2C6B61F900C465CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DDE2C6B61F900C465CB /* AppDelegate.swift */; };
 		7A971DE12C6B61F900C465CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DE02C6B61F900C465CB /* SceneDelegate.swift */; };
-		7A971DE32C6B61F900C465CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DE22C6B61F900C465CB /* ViewController.swift */; };
-		7A971DE62C6B61F900C465CB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DE52C6B61F900C465CB /* Base */; };
+		7A971DE32C6B61F900C465CB /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DE22C6B61F900C465CB /* QuizViewController.swift */; };
 		7A971DE82C6B61FC00C465CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DE72C6B61FC00C465CB /* Assets.xcassets */; };
-		7A971DEB2C6B61FC00C465CB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DEA2C6B61FC00C465CB /* Base */; };
+		7A971DF32C6B704B00C465CB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DF22C6B704B00C465CB /* Model.swift */; };
+		7A971DF42C6B778A00C465CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DE92C6B61FC00C465CB /* LaunchScreen.storyboard */; };
+		7A971DF62C6B790700C465CB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A971DF52C6B790700C465CB /* MenuViewController.swift */; };
+		7A971DF82C6B797000C465CB /* IrishGrover-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DF72C6B797000C465CB /* IrishGrover-Regular.ttf */; };
+		7A971DFA2C6B7B8500C465CB /* Katibeh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A971DF92C6B7B8500C465CB /* Katibeh-Regular.ttf */; };
+		7A971E062C6CA24A00C465CB /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A971E052C6CA24A00C465CB /* heart.gif */; };
+		7A971E082C6CAA8400C465CB /* star.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A971E072C6CAA8300C465CB /* star.gif */; };
+		7A971E0A2C6CB84200C465CB /* correct.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A971E092C6CB84200C465CB /* correct.gif */; };
+		7A971E0C2C6CBE3100C465CB /* finish.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A971E0B2C6CBE3000C465CB /* finish.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A971DDB2C6B61F900C465CB /* quiz app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quiz app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A971DDE2C6B61F900C465CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A971DE02C6B61F900C465CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A971DE22C6B61F900C465CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A971DE52C6B61F900C465CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A971DE22C6B61F900C465CB /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		7A971DE72C6B61FC00C465CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A971DEA2C6B61FC00C465CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A971DEC2C6B61FC00C465CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A971DF22C6B704B00C465CB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7A971DF52C6B790700C465CB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7A971DF72C6B797000C465CB /* IrishGrover-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IrishGrover-Regular.ttf"; sourceTree = "<group>"; };
+		7A971DF92C6B7B8500C465CB /* Katibeh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Katibeh-Regular.ttf"; sourceTree = "<group>"; };
+		7A971E052C6CA24A00C465CB /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heart.gif; sourceTree = "<group>"; };
+		7A971E072C6CAA8300C465CB /* star.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = star.gif; sourceTree = "<group>"; };
+		7A971E092C6CB84200C465CB /* correct.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = correct.gif; sourceTree = "<group>"; };
+		7A971E0B2C6CBE3000C465CB /* finish.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = finish.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				7A971DDE2C6B61F900C465CB /* AppDelegate.swift */,
 				7A971DE02C6B61F900C465CB /* SceneDelegate.swift */,
-				7A971DE22C6B61F900C465CB /* ViewController.swift */,
-				7A971DE42C6B61F900C465CB /* Main.storyboard */,
+				7A971DF22C6B704B00C465CB /* Model.swift */,
+				7A971DE22C6B61F900C465CB /* QuizViewController.swift */,
+				7A971DF52C6B790700C465CB /* MenuViewController.swift */,
 				7A971DE72C6B61FC00C465CB /* Assets.xcassets */,
 				7A971DE92C6B61FC00C465CB /* LaunchScreen.storyboard */,
 				7A971DEC2C6B61FC00C465CB /* Info.plist */,
+				7A971DF72C6B797000C465CB /* IrishGrover-Regular.ttf */,
+				7A971DF92C6B7B8500C465CB /* Katibeh-Regular.ttf */,
+				7A971E052C6CA24A00C465CB /* heart.gif */,
+				7A971E072C6CAA8300C465CB /* star.gif */,
+				7A971E092C6CB84200C465CB /* correct.gif */,
+				7A971E0B2C6CBE3000C465CB /* finish.gif */,
 			);
 			path = "quiz app";
 			sourceTree = "<group>";
@@ -125,9 +146,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A971DF42C6B778A00C465CB /* LaunchScreen.storyboard in Resources */,
+				7A971E062C6CA24A00C465CB /* heart.gif in Resources */,
+				7A971E0C2C6CBE3100C465CB /* finish.gif in Resources */,
+				7A971DF82C6B797000C465CB /* IrishGrover-Regular.ttf in Resources */,
+				7A971DFA2C6B7B8500C465CB /* Katibeh-Regular.ttf in Resources */,
+				7A971E082C6CAA8400C465CB /* star.gif in Resources */,
 				7A971DE82C6B61FC00C465CB /* Assets.xcassets in Resources */,
-				7A971DEB2C6B61FC00C465CB /* Base in Resources */,
-				7A971DE62C6B61F900C465CB /* Base in Resources */,
+				7A971E0A2C6CB84200C465CB /* correct.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A971DE32C6B61F900C465CB /* ViewController.swift in Sources */,
+				7A971DE32C6B61F900C465CB /* QuizViewController.swift in Sources */,
+				7A971DF62C6B790700C465CB /* MenuViewController.swift in Sources */,
 				7A971DDF2C6B61F900C465CB /* AppDelegate.swift in Sources */,
 				7A971DE12C6B61F900C465CB /* SceneDelegate.swift in Sources */,
+				7A971DF32C6B704B00C465CB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A971DE42C6B61F900C465CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A971DE52C6B61F900C465CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7A971DE92C6B61FC00C465CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,11 +315,13 @@
 				DEVELOPMENT_TEAM = Q7SNWYJKZ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "quiz app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +345,13 @@
 				DEVELOPMENT_TEAM = Q7SNWYJKZ5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "quiz app/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
